@@ -3,12 +3,16 @@
 ### **Overview**  
 AI-Stock Advisor System is an AI-powered stock market analysis platform that provides **real-time insights, trend predictions, and financial analytics** using **LangChain agents, Nvidia NIM models, and Retrieval-Augmented Generation (RAG)**. It integrates **live stock data, financial reports, and AI-powered chat interactions** to help users make informed investment decisions.  
 
+![AI-Advisor Home Screen with Chat functionality](images/Group%205.png)
+
 This system features:  
 ✅ **Live stock data retrieval** (from APIs like Alpha Vantage, FinnHub, FMP)  
 ✅ **AI-powered financial insights** using LangChain agents and Nvidia NIM  
 ✅ **Retrieval-Augmented Generation (RAG)** for context-aware responses  
 ✅ **User authentication & portfolio management** (Azure Cosmos DB)  
 ✅ **Seamless CI/CD pipeline & cloud deployment** (Docker, GitHub Actions, Heroku)  
+
+![AI-Advisor System Architecture](images/Group%201.png)
 
 ---
 
@@ -55,6 +59,25 @@ This system features:
 
 ---
 
+### **Application Screen UI**
+
+**Landing Page** 
+![Landing Page UI](images/Landing%20Page.png)
+
+**Home Screen View** 
+![Home Screen View](images/Advisor%20Screen.png)
+
+**Advisor Chat View** 
+![Advisor Chat View](images/Chat%20With%20Advisor%20-%201.png)
+
+**Portfolio Management View** 
+![Portfolio Management View](images/Portfolio%20Management%20Screen.png)
+
+**Stock Details View** 
+![Stock Details View](images/Stock-Details-Page.png)
+
+---
+
 ### **Setup & Deployment**  
 **Run Locally (Dockerized)**  
 ```bash
@@ -86,7 +109,7 @@ For **production**, the backend is deployed on **Heroku**, the frontend on **Net
 ---
 
 ### **Contributors & Credits**  
-Built by **[your team]**, leveraging cutting-edge AI, cloud, and financial APIs.  
+Built by **Asish Nelapati, Siddartha Swaroop**, leveraging cutting-edge AI, cloud, and financial APIs.  
 
 🛠 Want to contribute? Fork & submit a PR!  
 
